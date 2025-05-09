@@ -12,7 +12,7 @@ window.TrelloPowerUp.initialize({
               cardDesc: card.desc
             };
 
-            return fetch('https://script.google.com/macros/s/여기에_본인_웹앱_주소/exec', {
+            return fetch('https://script.google.com/macros/s/AKfycbwhcuRjiAhoZD1-zwyAUGyhpO_Ol3yHel8IrZDvoS5keYz0gE2k8agafCstR2_rU3EX/exec', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify(payload)
